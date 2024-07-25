@@ -1,0 +1,9 @@
+
+<h2 class="title">Student List</h2>
+<ul class="tableStyle">
+    <li *ngFor = "let student of students">
+        {{student.id}} - {{student.name}} - {{student.course}}
+        <button (click)="deleteStudent(student.id)">Delete</button>
+    </li>
+</ul>
+<a class="link"  routerLink="/add">Add a student</a>

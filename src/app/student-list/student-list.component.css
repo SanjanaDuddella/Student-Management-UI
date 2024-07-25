@@ -1,0 +1,30 @@
+.tableStyle
+{
+    list-style-type: none; /* Remove default bullets */
+  padding: 20px; /* Add padding inside the list */
+  margin: 0 auto; /* Center horizontally */
+  width: 50%; /* Adjust width as needed */
+  border: 1px solid #ddd; /* Border around the list */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Background color of the list */    
+    
+}
+.tableStyle li{
+    text-align: center;
+}
+
+.title
+{
+    color: blue;
+    text-align: center;
+}
+
+.container
+{
+    text-align: right;
+}
+
+.link
+{
+    text-align: center;
+}
